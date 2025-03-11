@@ -1,1 +1,1 @@
-# Alzheimer-s-Detection
+# Alzheimer's-Detection
