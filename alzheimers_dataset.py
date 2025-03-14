@@ -1,20 +1,28 @@
 import torch
 from torch.utils.data import Dataset
+import torchvision
 from torchvision.io import read_image
+from PIL import Image
+import torchvision.transforms as tf
+import os
+import numpy as np
+import pandas as pd
 
 class alzheimers_dataset(Dataset):
     
-    def __init__(self, df, transform=None):
-        self.df = df
+    def __init__(self, root_dir, image_paths, labels, transform=None):
+        self.root_dir = root_dir
+        self.image_paths = image_paths
+        self.labels = labels
         self.transform = transform
         
     def __len__(self):
-        return len(self.df['class_label'])
+        return len(self.image_paths)
     
     def __getitem__(self, index):
-        image_path = self.df['image_path'].iloc[index]
-        image = read_image(image_path)
-        label = self.df['class_label'].iloc[index]
+        image_path = self.root_dir + self.image_paths[index]
+        image = Image.open(image_path).convert('L')
+        label = self.labels[index]
         if self.transform:
             image = self.transform(image)
         
