@@ -51,3 +51,5 @@ This project compares the performance of three deep learning architectures (CNN,
 ## Acknowledgments
 
 Data were provided [in part] by OASIS-1: Cross-Sectional: Principal Investigators: D. Marcus, R, Buckner, J, Csernansky J. Morris; P50 AG05681, P01 AG03991, P01 AG026276, R01 AG021910, P20 MH071616, U24 RR021382
+
+The processed dataset containing the 2D images were provided by Ninad Aithal: https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data
