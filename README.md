@@ -3,7 +3,7 @@
 ## Overview
 
 This project compares the performance of three deep learning architectures (CNN, ResNet, and Vision Transformer) for early detection of Alzheimer's Disease using MRI images.
-- Full report is titled "Evaluating_Deep_Learning_Models_for_Early_Alzheimer's_Detection_in_Magnetic_Resonance_Imaging.pdf"
+- ***Full report is titled "Evaluating_Deep_Learning_Models_for_Early_Alzheimer's_Detection_in_Magnetic_Resonance_Imaging.pdf"***
 
 ## Dataset
 
