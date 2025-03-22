@@ -1,4 +1,4 @@
-# Evaluating Deep Learning Models for Alzheimer's Early Detection in MRI Imaging
+# Evaluating Deep Learning Models for Early Alzheimer’s Detection in Magnetic Resonance Imaging
 
 ## Overview
 
